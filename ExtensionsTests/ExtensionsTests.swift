@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import CoreLocation
 @testable import Extensions
 
 class ExtensionsTests: XCTestCase {
@@ -20,5 +21,10 @@ class ExtensionsTests: XCTestCase {
     
     func testStringProtocol() {
         XCTAssertEqual("123456"[2], Character("3"))
+    }
+    
+    func testCLAuthorizationStatus() {
+        let authorizationStatus: CLAuthorizationStatus = .authorizedAlways
+        XCTAssertEqual(authorizationStatus.debugDescription, "Authorized always")
     }
 }
