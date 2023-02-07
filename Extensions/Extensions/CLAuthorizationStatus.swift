@@ -24,7 +24,7 @@ extension CLAuthorizationStatus: CustomDebugStringConvertible {
         case .authorized:
             return "Authorized"
         @unknown default:
-            fatalError("Unexpected CLAuthorizationStatus value.")
+            fatalError("Unexpected CLAuthorizationStatus value")
         }
     }
 }

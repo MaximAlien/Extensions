@@ -14,6 +14,10 @@
 		6D3CEF1629916E0F00C81630 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF1529916E0F00C81630 /* ExtensionsTests.swift */; };
 		6D3CEF3029916ED000C81630 /* StringProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF2F29916ED000C81630 /* StringProtocol.swift */; };
 		6D3CEF322991816400C81630 /* CLAuthorizationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF312991816400C81630 /* CLAuthorizationStatus.swift */; };
+		6D3CEF7D2992C76D00C81630 /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF7C2992C76D00C81630 /* CLLocation.swift */; };
+		6D3CEF7F2992C78C00C81630 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF7E2992C78C00C81630 /* UIViewController.swift */; };
+		6D3CEF812992C7AA00C81630 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF802992C7AA00C81630 /* UITableViewCell.swift */; };
+		6D3CEF832992C7BD00C81630 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CEF822992C7BD00C81630 /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		6D3CEF1529916E0F00C81630 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
 		6D3CEF2F29916ED000C81630 /* StringProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocol.swift; sourceTree = "<group>"; };
 		6D3CEF312991816400C81630 /* CLAuthorizationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAuthorizationStatus.swift; sourceTree = "<group>"; };
+		6D3CEF7C2992C76D00C81630 /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		6D3CEF7E2992C78C00C81630 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		6D3CEF802992C7AA00C81630 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		6D3CEF822992C7BD00C81630 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,10 @@
 			children = (
 				6D3CEF2F29916ED000C81630 /* StringProtocol.swift */,
 				6D3CEF312991816400C81630 /* CLAuthorizationStatus.swift */,
+				6D3CEF7C2992C76D00C81630 /* CLLocation.swift */,
+				6D3CEF7E2992C78C00C81630 /* UIViewController.swift */,
+				6D3CEF802992C7AA00C81630 /* UITableViewCell.swift */,
+				6D3CEF822992C7BD00C81630 /* UITableView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,9 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3CEF7D2992C76D00C81630 /* CLLocation.swift in Sources */,
 				6D3CEF0729916E0900C81630 /* ContentView.swift in Sources */,
+				6D3CEF7F2992C78C00C81630 /* UIViewController.swift in Sources */,
 				6D3CEF0529916E0900C81630 /* ExtensionsApp.swift in Sources */,
 				6D3CEF322991816400C81630 /* CLAuthorizationStatus.swift in Sources */,
+				6D3CEF832992C7BD00C81630 /* UITableView.swift in Sources */,
+				6D3CEF812992C7AA00C81630 /* UITableViewCell.swift in Sources */,
 				6D3CEF3029916ED000C81630 /* StringProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
